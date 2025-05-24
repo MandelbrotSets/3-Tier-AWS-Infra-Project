@@ -30,8 +30,8 @@ Step 5: Create Security Groups
 External-Load-Balancer-SG HTTP (80): 0.0.0.0/0.
 Web-Tier-SG HTTP pointing to Ext-LB-SG.
 Internal-Load-Balancer-SG HTTP pointing to Web-Tier-SG.
-App-Tier-SG  Port 4000 pointing to Internal-LB-SG.
-DB-Tier-SG  MySQL (3306) pointing to App-Tier-SG.
+App-Tier-SG Port 4000 pointing to Internal-LB-SG.
+DB-Tier-SG MySQL (3306) pointing to App-Tier-SG.
 
 Step 6: Create DB Subnet Group & RDS
 Create DB subnet group in RDS
